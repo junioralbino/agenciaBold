@@ -136,6 +136,28 @@ section.cta a{
     border-radius: 7px;
     color: #0F3FD3;
     font-weight: bold;
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+.lista-beneficios{
+    width: 50%;
+}
+.img-beneficios{
+    width: 50%;
+}
+.lista-beneficios span {
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+
+.lista-beneficios p {
+    display: block;
+    font-size: 14px;
+}
+.img-beneficios img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
 }
 @media screen and (max-width: 768px) {
     .diferenciais {
