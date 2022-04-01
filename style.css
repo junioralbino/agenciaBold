@@ -139,6 +139,9 @@ section.cta a{
     margin-bottom: 100px;
     text-decoration: none;
 }
+.beneficios .center{
+    margin-top: 100px;
+}
 .lista-beneficios{
     width: 50%;
     margin-top: 70px;
@@ -162,7 +165,103 @@ section.cta a{
 .img-beneficios img {
     max-width: 100%;
 }
+.lista-beneficios ul button{
+    background-color: #0F3FD3;
+    padding: 12px;
+    border-bottom: none;
+    border-radius: 10px;
+    color:#fff;
+    text-decoration: none;
+    border: none;
+    right: 0;
+}
+.lista-beneficios ul div {
+    padding-left: 36px;
+    padding-top: 50px;
+}
+section.depoimentos {
+    background-color: #FBFCFE;
+    margin-top: 222px;
+    padding: 40px 0;
+}
+section.depoimentos > h1 {
+    text-align: center;
+    font-size: 64px;
+}
+.container-slider{
+    overflow:hidden;
+    padding:40px 0;   
+}
 
+.container-slider-single{
+    float: left;
+    background-color:white;
+    text-align: center;
+    padding:15px;
+    border-radius:10px;
+}
+.container-slider-single img {
+    padding-top: 59px;
+}
+.container-slider-single .star {
+    padding-bottom: 59px;
+}
+.container-slider-single p{
+    margin:15px 0;
+    color:#7E92AC;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.slick-slide {
+    margin-left:27px;
+
+  }
+
+  /* the parent */
+  .slick-list {
+    margin-left:-27px;
+   
+  }
+
+/****SLICK SLIDER****/
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #373855;
+	color: #373855;
+}
+.container-slider-single h3 {
+    padding-top: 37px;
+    padding-bottom: 23px;
+}
 @media screen and (max-width: 768px) {
     .diferenciais {
         flex-wrap: wrap;
