@@ -262,6 +262,53 @@ li.slick-active button{
     padding-top: 37px;
     padding-bottom: 23px;
 }
+/* fim do slick slider */
+section.contato{
+    margin-top: 150px;
+    padding: 40px 0;
+    text-align: center;
+}
+section.contato h1 {
+    font-size: 64px;
+    padding-bottom: 20px;
+}
+section.contato form{
+    width: 100%;
+}
+.contato input[type=text],
+.contato input[type=email]{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+section.contato textarea{
+    width: 100%;
+    height: 279px;
+    margin: 20px 0;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.contato input[type=submit]{
+    width: 100%;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    background: #255AFF;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.88px;
+}
 @media screen and (max-width: 768px) {
     .diferenciais {
         flex-wrap: wrap;
